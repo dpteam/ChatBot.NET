@@ -26,7 +26,7 @@ namespace ChatBot.NET
             question = Console.ReadLine();
 
             // Hello Yandere Employee!
-            if (question == "Hi")
+            if ( (question == "Hi") || (question == "Hello"))
             {
                 if (ChatMode == "Normal")
                 {
